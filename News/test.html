@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <script src="https://kit.fontawesome.com/5041c59df8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap" />
+
+    <style>
+        .news-parent {
+            margin-top: 10rem;
+            position: relative;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .news-child {
+            width: 6%;
+            top: 0;
+            right: 0;
+            border-radius: 5px;
+            background: linear-gradient(90deg, #0027ff, #2d3b89);
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .latest-news {
+            text-align: center;
+            color: #fff;
+        }
+
+        .news-time-update {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            color: black;
+        }
+
+        .news-line {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            right: 0;
+            border-top: 1px solid #cecece;
+            box-sizing: border-box;
+        }
+
+
+
+        .frame-item {
+            position: relative;
+            top: 0px;
+            left: 0px;
+            border-radius: 10px;
+            background-color: #2d3b89;
+            width: 100%;
+            height: 367px;
+        }
+
+        .text {
+            position: relative;
+            line-height: 20px;
+            font-weight: 500;
+        }
+
+        .a-badge {
+            border-radius: 6px;
+            background-color: rgba(75, 107, 251, 0.05);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 4px 10px;
+        }
+
+        .title {
+            width: 365px;
+            position: relative;
+            line-height: 28px;
+            font-weight: 600;
+            color: #181a2a;
+            display: flex;
+            align-items: center;
+            height: 47px;
+            flex-shrink: 0;
+        }
+
+        .heading {
+            position: absolute;
+            top: 401px;
+            left: 13px;
+            width: 351px;
+            height: 134px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 12px;
+        }
+
+        .date {
+            position: relative;
+            line-height: 24px;
+        }
+
+        .short-info {
+            height: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .content {
+            position: absolute;
+            top: 503px;
+            left: 13px;
+            width: 94px;
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 8px;
+            box-sizing: border-box;
+            font-size: 10px;
+            color: #97989f;
+        }
+
+        .rectangle-parent {
+            width: 95%;
+            position: relative;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            height: 600px;
+            overflow: hidden;
+            cursor: pointer;
+            text-align: left;
+            font-size: 14px;
+            color: #4b6bfb;
+            font-family: 'Work Sans';
+            margin-top: 7rem;
+        }
+
+        .news-card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2px;
+        }
+    </style>
+
+</head>
+
+<body>
+     <!-- Navigation -->
+     <div class="nav main-tool-bar">
+        <div class="container-width">
+            <div class="navbar">
+                <div class="logo"><a href="index.html"><img src="asset/image/ppm.jpg" alt=""></a></div>
+                <div id="nav-news" class="nav-list nav-news"><a href="">News</a></div>
+                <div id="nav-media" class="nav-list nav-media"><a href="">Media Center</a></div>
+                <div id="nav-social" class="nav-list nav-social"><a href="">Social Media</a></div>
+                <div id="nav-entertainment" class="nav-list nav-entertainment"><a href="">Entertainment</a></div>
+                <div id="nav-article" class="nav-list nav-article"><a href="">Article</a></div>
+                <div id="nav-search" class="nav-list search-bar"><a href=""><i
+                            class="fa-solid fa-magnifying-glass"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Navigation  -->
+     <div class="container-width">
+        <div class="news-parent ">
+            <div class="news-child">
+                <div class="latest-news">Latest News</div>
+            </div>
+            <div class="news-time-update">
+                <div>July 26 2024</div>
+            </div>
+            <div class="news-line"></div>
+        </div>
+     </div>
+    
+    <div class=" container-width news-card-grid">
+        <div class="rectangle-parent" id="frameContainer">
+            <div class="frame-child">
+                <div class="frame-item">
+                    <div class="heading">
+                        <div class="a-badge">
+                            <div class="text">Technology</div>
+                        </div>
+                        <div class="title">The Impact of Technology on the Workplace: How Technology is Changing</div>
+                    </div>
+                    <div class="content">
+                        <div class="short-info">
+                            <div class="date">August 20, 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle-parent" id="frameContainer">
+            <div class="frame-child">
+                <div class="frame-item">
+                    <div class="heading">
+                        <div class="a-badge">
+                            <div class="text">Technology</div>
+                        </div>
+                        <div class="title">The Impact of Technology on the Workplace: How Technology is Changing</div>
+                    </div>
+                    <div class="content">
+                        <div class="short-info">
+                            <div class="date">August 20, 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle-parent" id="frameContainer">
+            <div class="frame-child">
+                <div class="frame-item">
+                    <div class="heading">
+                        <div class="a-badge">
+                            <div class="text">Technology</div>
+                        </div>
+                        <div class="title">The Impact of Technology on the Workplace: How Technology is Changing</div>
+                    </div>
+                    <div class="content">
+                        <div class="short-info">
+                            <div class="date">August 20, 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle-parent" id="frameContainer">
+            <div class="frame-child">
+                <div class="frame-item">
+                    <div class="heading">
+                        <div class="a-badge">
+                            <div class="text">Technology</div>
+                        </div>
+                        <div class="title">The Impact of Technology on the Workplace: How Technology is Changing</div>
+                    </div>
+                    <div class="content">
+                        <div class="short-info">
+                            <div class="date">August 20, 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Advertising  -->
+    <div data-aos="flip-down" class="container-width ads">
+        <div class="ads-child">
+        </div>
+        <img class="ads-img" alt="" src="asset/image/ads.png">
+        <div class="ads-item">
+        </div>
+        <div class="purchase-now">PURCHASE NOW</div>
+        <div class="best-selling-product-container">
+            <span>Best Selling</span>
+            <span class="span"> </span>
+            <span>Product </span>
+        </div>
+    </div>
+    <!-- End of Advertising -->
+    <div class=" container-width news-card-grid">
+        <div class="rectangle-parent" id="frameContainer">
+            <div class="frame-child">
+                <div class="frame-item">
+                    <div class="heading">
+                        <div class="a-badge">
+                            <div class="text">Technology</div>
+                        </div>
+                        <div class="title">The Impact of Technology on the Workplace: How Technology is Changing</div>
+                    </div>
+                    <div class="content">
+                        <div class="short-info">
+                            <div class="date">August 20, 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle-parent" id="frameContainer">
+            <div class="frame-child">
+                <div class="frame-item">
+                    <div class="heading">
+                        <div class="a-badge">
+                            <div class="text">Technology</div>
+                        </div>
+                        <div class="title">The Impact of Technology on the Workplace: How Technology is Changing</div>
+                    </div>
+                    <div class="content">
+                        <div class="short-info">
+                            <div class="date">August 20, 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-parent ">
+        <div class="footer container-width">
+            <div class="footer-child">
+                <div class="footer-grid">
+                    <div class="footer-title">
+                        <div class="footer-text">Connect with Us on Social Media
+                            Follow for updates and exclusive content.
+                        </div>
+                        <div class="social-icon">
+                            <div class="s-icon facebook">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                            <div class="s-icon telegram"><a href="#"><i class="fa-brands fa-telegram"></i></a></div>
+                            <div class="s-icon whatsapp"><a href="#"><i class="fa-brands fa-whatsapp"></i></a></div>
+                            <div class="s-icon youtube"><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="quick-link-parent">
+                        <div class="quick-link">
+                            <div class="quick-link-title">Quick Link</div>
+                            <div class="quick-link-line"></div>
+                            <div class="f-news">News</div>
+                            <div class="f-media-center">Media Center</div>
+                            <div class="f-social-media">Social Media</div>
+                            <div class="f-entertainment">Entertainment</div>
+                            <div class="f-other-article">Article</div>
+
+                        </div>
+                    </div>
+                    <div class="get-mail">
+                        <div class="mail">
+                            <div class="mail-title">Stay In Touch</div>
+                            <div class="mail-line"></div>
+                            <div class="mail-text">
+                                <p class="">To be updated with all the latest news, offers
+                                    and special announcements.
+                                </p>
+                            </div>
+                            <div class="mail-input">
+                                <input placeholder="Enter your email" class="input" type="text">
+                            </div>
+                            <div class="mail-btn">
+                                <button type="submit" class="mail-submit group-child">Subscribe</button>
+                                <div class="subscribe"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
