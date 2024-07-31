@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="asset/css/style.css">
+  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre Baskerville:wght@400&display=swap" />
     <script src="https://kit.fontawesome.com/5041c59df8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -20,12 +21,34 @@
                 <div id="nav-news" class="nav-list nav-news"><a href="news.html">News</a></div>
                 <div id="nav-media" class="nav-list nav-media"><a href="media.html">Media Center</a></div>
                 <div id="nav-social" class="nav-list nav-social"><a href="social.html">Social Media</a></div>
-                <div id="nav-entertainment" class="nav-list nav-entertainment"><a href="entertainment.html">Entertainment</a></div>
+                <div id="nav-entertainment" class="nav-list nav-entertainment"><a
+                        href="entertainment.html">Entertainment</a></div>
                 <div id="nav-article" class="nav-list nav-article"><a href="article.html">Article</a></div>
-                <div id="nav-search" class="nav-list search-bar"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                <div id="nav-search" class="nav-list search-bar"><a href="#"><i
+                            class="fa-solid fa-magnifying-glass"></i></a></div>
             </div>
         </div>
     </div>
+    <!-- End of Navigation -->
+    
+        <div id="search-popup">
+            <div class="search-popup-content">
+                <span id="close-search-popup" class="close-btn">&times;</span>
+                <input type="text" id="search-input" placeholder="Search...">
+                <!-- <button id="search-button">Search</button> -->
+                <ul id="suggestions" class="suggestions"></ul>
+                <div class="no-results">No results found</div>
+            </div>
+        </div>
+        
+        <!-- Trigger for the search popup -->
+        <!-- <a href="#" id="nav-search">Search</a>
+        <a href="#" id="search-icon">Search Icon</a>
+         -->
+   
+   
+
+
     <!-- Scrollable Content -->
 
     <!-- End of Navigation  -->
@@ -42,13 +65,13 @@
                     </div>
                 </div>
                 <div class="post-two">
-                    <div data-aos="fade-left" class="section-img-two">
+                    <div data-aos="fade-up" class="section-img-two">
                         <a href=""><img class="s-img-two" src="asset/image/event.jpg" alt=""></a>
                         <div class="post-two-child"></div>
                         <div class="text-s-img-two"> By Administrator - 03 June 2023</div>
                     </div>
                     <div class="section-posttwo">
-                        <div data-aos="fade-left" class="section-img-three">
+                        <div data-aos="fade-up" class="section-img-three">
                             <div class="s-img-three">
                                 <a href=""><img class="s-img-three-item" src="asset/image/event.jpg" alt=""></a>
                                 <div class="post-three-item"></div>
@@ -57,7 +80,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-left" class="section-img-three">
+                        <div data-aos="fade-up" class="section-img-three">
                             <div class="s-img-three">
                                 <a href=""><img class="s-img-three-item" src="asset/image/event.jpg" alt=""></a>
                                 <div class="post-three-item"></div>
@@ -70,7 +93,7 @@
                 </div>
             </div>
             <!-- Advertising  -->
-            <div data-aos="flip-down" class="ads">
+            <div data-aos="fade-up"class="ads">
                 <div class="ads-child">
                 </div>
                 <img class="ads-img" alt="" src="asset/image/ads.png">
@@ -96,10 +119,10 @@
                 </div>
                 <div class="card-section card-grid">
                     <div class="card-parent">
-                        <div data-aos="fade-right " class="fist-card">
+                        <div data-aos="fade-up" class="fist-card">
                             <div class="first-card-inner"></div>
                             <div class="first-card-text">
-                                <h2>Card Title</h2>                              
+                                <h2>Card Title</h2>
                                 Lorem orem Ipsum is simply Lorem card text Lorem card text Lorem card text Lorem card
                                 Lorem
                                 card text Lorem card text Lorem
@@ -112,71 +135,75 @@
                     </div>
                     <div class="s-section ">
                         <div class="second-card-parent">
-                            <div data-aos="zoom-out" class="second-card-child second-card-parent">
+                            <div data-aos="fade-up" class="second-card-child second-card-parent">
                                 <div class="second-card">
                                     <div class="second-card-inner">
                                         <img class="second-card-img" src="asset/image/event.jpg" alt="">
                                         <div class="second-card-text">
                                             <h3>Card Title</h3>
-                                            <p>Lorem card text Lorem card text Lorem card text Lorem card Lorem card text</p>   
+                                            <p>Lorem card text Lorem card text Lorem card text Lorem card Lorem card
+                                                text</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
-                            <div data-aos="zoom-out" class="second-card-child second-card-parent">
+
+                            <div data-aos="fade-up" class="second-card-child second-card-parent">
                                 <div class="second-card">
                                     <div class="second-card-inner">
                                         <img class="second-card-img" src="asset/image/event.jpg" alt="">
                                         <div class="second-card-text">
                                             <h3>Card Title</h3>
-                                            <p>Lorem card text Lorem card text Lorem card text Lorem card Lorem card text</p>   
+                                            <p>Lorem card text Lorem card text Lorem card text Lorem card Lorem card
+                                                text</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div data-aos="zoom-out" class="second-card-child second-card-parent">
+                            <div data-aos="fade-up" class="second-card-child second-card-parent">
                                 <div class="second-card">
                                     <div class="second-card-inner">
                                         <img class="second-card-img" src="asset/image/event.jpg" alt="">
                                         <div class="second-card-text">
                                             <h3>Card Title</h3>
-                                            <p>Lorem card text Lorem card text Lorem card text Lorem card Lorem card text</p>   
+                                            <p>Lorem card text Lorem card text Lorem card text Lorem card Lorem card
+                                                text</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="third-card second-card-parent">
-                            <div data-aos="zoom-out" class="second-card-child second-card-parent">
+                            <div data-aos="fade-up" class="second-card-child second-card-parent">
                                 <div class="second-card">
                                     <div class="second-card-inner">
                                         <img class="second-card-img" src="asset/image/event.jpg" alt="">
                                         <div class="second-card-text">
                                             <h3>Card Title</h3>
-                                            <p>Lorem card text Lorem card text Lorem card text Lorem </p>   
+                                            <p>Lorem card text Lorem card text Lorem card text Lorem card Lorem card
+                                                text</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div data-aos="zoom-out" class="second-card-child second-card-parent">
+                            <div data-aos="fade-up" class="second-card-child second-card-parent">
                                 <div class="second-card">
                                     <div class="second-card-inner">
                                         <img class="second-card-img" src="asset/image/event.jpg" alt="">
                                         <div class="second-card-text">
                                             <h3>Card Title</h3>
-                                            <p>Lorem card text Lorem card text Lorem card text Lorem </p>   
+                                            <p>Lorem card text Lorem card text Lorem card text Lorem </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div data-aos="zoom-out" class="second-card-child second-card-parent">
+                            <div data-aos="fade-up" class="second-card-child second-card-parent">
                                 <div class="second-card">
                                     <div class="second-card-inner">
                                         <img class="second-card-img" src="asset/image/event.jpg" alt="">
                                         <div class="second-card-text">
                                             <h3>Card Title</h3>
-                                            <p>Lorem card text Lorem card text Lorem card text Lore</p>   
+                                            <p>Lorem card text Lorem card text Lorem card text Lore</p>
                                         </div>
                                     </div>
                                 </div>
@@ -239,6 +266,7 @@
             </div>
         </div>
     </div>
+    <script src="asset/js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
@@ -256,9 +284,10 @@
                 mirror: true // whether elements should animate out while scrolling past them
             });
         }
-
         // Call the function to initialize AOS
         initializeAOS();
+
+
     </script>
 
 </body>
